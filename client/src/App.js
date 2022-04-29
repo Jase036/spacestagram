@@ -33,7 +33,7 @@ const App = () => {
             <Error />
           ) : (
             <Switch>
-              <Route path="*">
+              <Route path="/">
                 <HomeFeed />
               </Route>
             </Switch>
