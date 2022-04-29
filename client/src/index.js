@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { ImageProvider } from "./components/ImageContext";
-import { ErrorProvider } from "./components/ErrorContext";
+import { ImageProvider } from "./context/ImageContext";
+import { ErrorProvider } from "./context/ErrorContext";
 
 ReactDOM.render(
   <ErrorProvider>

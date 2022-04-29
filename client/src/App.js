@@ -2,8 +2,8 @@ import React, { useContext, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import styled, { createGlobalStyle } from "styled-components";
 import HomeFeed from "./components/HomeFeed";
-import { ImageContext } from "./components/ImageContext";
-import { ErrorContext } from "./components/ErrorContext";
+import { ImageContext } from "./context/ImageContext";
+import { ErrorContext } from "./context/ErrorContext";
 import Error from "./components/Error";
 
 const App = () => {

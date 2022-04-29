@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Image from "./Image";
 
-import { ImageContext } from "./ImageContext";
+import { ImageContext } from "../context/ImageContext";
 import Loading from "./Loading";
 
 const RenderImageFeed = () => {

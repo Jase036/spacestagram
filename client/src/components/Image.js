@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import styled from "styled-components";
-import { ImageContext } from "./ImageContext";
+import { ImageContext } from "../context/ImageContext";
 
 import Actions from "./Actions";
 import Loading from "./Loading";

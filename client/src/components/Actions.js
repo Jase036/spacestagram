@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import Action from "./LikeButton/Action";
 import LikeButton from "./LikeButton";
-import { ImageContext } from "./ImageContext";
+import { ImageContext } from "../context/ImageContext";
 import Loading from "./Loading";
 
 const Actions = ({ image }) => {
